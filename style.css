@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-image: url(./Assignment2.html\Avengers.jpg);
+    background-size: cover;
+}
+
+.day {
+    width: 2400px;
+    height: 1980px;
+    border: 20px solid rgb(13, 13, 49);
+    background-color: rgb(116, 79, 97);
+}
+
+img {
+    float: right;
+    width: 1170px; 
+    height: 1200; 
+}
+
+.name {
+    position: absolute;
+    color: antiquewhite;
+    padding: 120px 160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 120px; 
+}
+
+.details {
+    position: relative;
+    top: 160px;
+    padding: 160px 160px;
+    left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+}
+
+.more,
+.reviews {
+    border: 2px solid burlywood;
+    background-color: white;
+    padding: 20px;
+    color: rgb(96, 61, 108);
+    text-decoration: none;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: right;
+}
